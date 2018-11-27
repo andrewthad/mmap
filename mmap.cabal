@@ -5,7 +5,7 @@ License: BSD3
 License-File: LICENSE
 Copyright: 2008-2012, Gracjan Polak
 Author: Gracjan Polak <gracjanpolak@gmail.com>
-Maintainer: Gracjan Polak <gracjanpolak@gmail.com>
+Maintainer: Andrew Martin <andrew.thaddeus@gmail.com>
 Synopsis: Memory mapped files for POSIX and Windows
 Description:
     This library provides a wrapper to mmap(2) or MapViewOfFile,
@@ -24,7 +24,7 @@ Flag mmaptest
 
 Source-repository head
   Type:     darcs
-  Location: http://code.haskell.org/mmap
+  Location: https://github.com/andrewthad/mmap
 
 Library
   Build-depends: base<5, bytestring
